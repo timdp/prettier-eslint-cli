@@ -15,11 +15,7 @@
   "scripts": {
     "build": "nps build",
     "lint": "nps lint",
-    "prepare": "patch-package && simple-git-hooks",
-    "prerelease": "nps build",
-    "release": "clean-pkg-json && changeset publish",
-    "version": "changeset version",
-    "postversion": "npm start test.update",
+    "prepare": "patch-package",
     "start": "nps",
     "test": "nps test"
   },
@@ -90,9 +86,6 @@
   "prettier": {
     "arrowParens": "avoid",
     "singleQuote": true
-  },
-  "simple-git-hooks": {
-    "pre-commit": "npx lint-staged && npm start validate"
   },
   "repository": {
     "type": "git",

@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@messageformat/core": "^3.0.1",
-    "@prettier/eslint": "npm:prettier-eslint@^15.0.1",
+    "@prettier/eslint": "npm:@timdp/prettier-eslint@^15.0.2-alpha.0",
     "arrify": "^2.0.1",
     "boolify": "^1.0.1",
     "camelcase-keys": "^7.0.2",

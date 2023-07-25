@@ -1,7 +1,10 @@
 {
-  "name": "prettier-eslint-cli",
+  "name": "@timdp/prettier-eslint-cli",
   "version": "7.1.0",
   "description": "CLI for prettier-eslint",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/no-main.js",
   "engines": {
     "node": ">=12.22"
